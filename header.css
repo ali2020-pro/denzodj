@@ -24,7 +24,8 @@
 .header{
     height:100px;
     vertical-align: center;
-    display:flex;
+    display:grid;
+    grid-template-columns:1fr,1fr,1fr
     align-items: center;
     background-color: white;
     flex:1;

@@ -1,0 +1,121 @@
+body{
+    background-image: url("bg.jfif");
+}
+.long{
+    font-size: 15px;
+}
+
+.image{
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+}
+.logo-image{
+    width:100%;
+    height: 100%;
+    object-fit: fill;
+}
+.dj-title{
+    height:100px;
+    width:100%;
+}
+.title_img{
+    width:100%;
+    height: 100%;
+    object-fit: fill;
+}
+.song-cover{
+    background-color: green;
+    width:100%;
+    height: 200px;
+    border-radius: 10px;
+}
+.song_image{
+    width:250px;
+    height:100%;
+    border-radius: 10px;
+}
+.song{
+    display:inline-block;
+    background-color: rgb(32, 233, 237);
+    width: 250px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.details{
+    display:flex;
+    flex-direction: column;
+    background-image: url("headsets.jfif");
+    width:250px;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+}
+.artist-div,.title-div{
+    display:inline-block;
+    align-items: center;
+    padding: 0 0 0 0;
+    margin:0px 0px 0px 0px;
+}
+.artist{
+    margin-top: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+    display:inline-block;
+    font-size:18px;
+    font-style: italic;
+    text-align: center;
+    color:white
+}
+.title{
+    font-family:Arial, Helvetica, sans-serif;
+    display:inline-block;
+    font-size:18px;
+    font-style: italic;
+    text-align: center;
+    margin:0px 0px 10px 0px;
+    color:white
+}
+.dw-btn{
+    background-color: white;
+    color:white;
+    width:200px;
+    height:40px;
+    border-width:1px;
+    border-radius:25px;
+    padding:8px 18px;
+    margin-bottom: 10px;
+    margin-left:20px;
+    border-color: aqua;
+    transition: background-color, .5s;
+}
+.dw-text{
+    color:blue;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+    font-size: 18px;
+}
+.dw-btn:hover{
+    background-color: rgb(0, 162, 255);
+    box-shadow: 5px 5px 10px;
+    border-width: 0px;
+}
+.dw-text:hover{
+    color:white
+}
+.word-title{
+    margin-left:10px;
+    font-weight: 1000;
+    font-size:18px;
+}
+.word-artist{
+    margin-left:10px;
+    font-weight: 1000;
+    font-size:18px;
+    margin-right:8px;
+}
+.player{
+    width:240px;
+    margin-bottom: 10px;
+    margin-left: 3px;
+}

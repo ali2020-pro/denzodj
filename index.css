@@ -1,9 +1,12 @@
 body{
+    margin-top:10px;
     background-image: url("bg.jfif");
-    padding-top:80px;
 }
 .long{
     font-size: 15px;
+}
+.songs{
+    padding-top: 110px;
 }
 
 .image{
@@ -45,11 +48,6 @@ body{
     border-radius: 10px;
     margin-left: 20px;
 }
-
-.songs{
-padding-top:110px;
-}
-
 .details{
     display:flex;
     flex-direction: column;
